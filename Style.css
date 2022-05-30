@@ -1,0 +1,622 @@
+/* GENERALS STYLES HERE  */
+/* GENERALS STYLES HERE  */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+html {
+    font-size: 14px;
+}
+
+:root {
+
+    /* Prmimary colors */
+    --Dark-Blue-email-intro: hsl(217, 28%, 15%);
+    /*(intro and email sign up background)*/
+    --Dark-Blue-main: hsl(218, 28%, 13%);
+    /* (main background)*/
+    --Dark-Blue-footer: hsl(216, 53%, 9%);
+    /*(footer background)*/
+    --Dark-Blue-testimonials: hsl(219, 30%, 18%);
+    /*(testimonials background)*/
+
+    /* Accent */
+    --Cyan: hsl(176, 68%, 64%);
+    /*(inside call-to-action gradient)*/
+    --Blue: hsl(198, 60%, 50%);
+    /* (inside call-to-action gradient)*/
+    --Light-Red: hsl(0, 100%, 63%);
+    /*(error)*/
+
+    /* Neutral */
+    --White: hsl(0, 0%, 100%);
+
+    /* Fonts */
+    --font-open-sans: 'Open Sans', sans-serif;
+    --font-raleway: 'Raleway', sans-serif;
+}
+
+
+
+
+/* GENERALS STYLES HERE ENDS HERE  */
+
+
+/* HEADERS SYLES */
+
+
+
+
+
+.header {
+    background: url(./images/bg-curvy-mobile.svg);
+    background-color: var(--Dark-Blue-email-intro);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom 0px left 0px
+}
+
+.logo-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.logo-nav .logo img {
+    width: 8rem;
+}
+
+.logo-nav nav {
+    display: flex;
+    gap: 20px;
+}
+
+.logo-nav nav a {
+    color: var(--White);
+    font-family: var(--font-raleway);
+    font-weight: 400;
+}
+
+.logo-nav nav a:hover {
+    color: rgb(255, 251, 251);
+    font-weight: 700;
+    border-bottom: 1px solid var(--White);
+}
+
+.get-started-session {
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+}
+
+.get-started-session .accesible-anywhere {
+    color: var(--White);
+    font-family: var(--font-raleway);
+    font-weight: 700;
+    font-size: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.get-started-session .intro-info {
+    color: var(--White);
+    font-family: var(--font-raleway);
+    font-weight: 400;
+    font-size: 14px;
+    padding: 5px;
+    margin: 10px 0px;
+}
+
+.btns {
+    border: none;
+    padding: 12px 70px;
+    border-radius: 32px;
+    background-color: var(--Cyan);
+    color: var(--White);
+    font-size: 15px;
+    font-family: var(--font-raleway);
+    font-weight: 700;
+    cursor: pointer;
+}
+
+/* .btns:hover{
+} */
+
+.ilustration-header img {
+    width: 90%;
+    height: auto;
+}
+
+
+
+
+/* HEADERS SYLES ENDS HERE  */
+
+
+
+/* MAIN STYLES  */
+
+main {
+    background-color: var(--Dark-Blue-main);
+}
+
+
+/* SECTION 1 */
+.services {
+    padding: 30px;
+    text-align: center;
+}
+
+.services div {
+    margin: 50px 0px;
+}
+
+h4 {
+    color: var(--White);
+    font-family: var(--font-raleway);
+    font-weight: 700;
+    padding: 15px 0px;
+    font-size: 20px
+}
+
+.p {
+    color: var(--White);
+    font-family: var(--font-raleway);
+    font-weight: 400;
+}
+
+/* SECTION 1 ENDS HERE */
+
+/* SECTION 2  */
+
+.stay-productive-box {
+    width: 100%;
+    padding: 30px;
+}
+
+.second-ilustration img {
+    width: 100%;
+}
+
+.second-ilustration {
+    padding-bottom: 15px;
+}
+
+.stay-productive-info {
+    text-align: justify;
+}
+
+h5 {
+    margin-bottom: 15px;
+    margin-top: 15px;
+    color: var(--White);
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.how-fylo-works {
+    margin-top: 15px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid var(--Cyan);
+    width: 50%;
+}
+
+.how-fylo-works a {
+    color: cyan;
+    font-family: var(--font-raleway);
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.how-fylo-works a span {
+    padding: 1px;
+    background-color: var(--Cyan);
+    border-radius: 50%;
+    color: black;
+    margin-left: 5px;
+}
+
+
+.how-fylo-works:hover {
+    border-bottom: 1px solid var(--White);
+}
+
+.how-fylo-works:hover a {
+    color: var(--White);
+}
+
+.how-fylo-works:hover a span {
+    background-color: var(--White);
+}
+
+/* SECTION 2  ENDS HERE  */
+
+
+/* QUOTES SECTION  */
+.quotes-box {
+    width: 100%;
+    padding: 35px;
+    position: relative;
+    margin-top: 20px;
+}
+
+.quotes-box div {
+    margin-bottom: 20px;
+}
+
+.quote {
+    background-color: var(--Dark-Blue-testimonials);
+    border-radius: 10px;
+    padding-top: 30px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 0px;
+    text-align: justify;
+    line-height: 20px;
+}
+
+.quote .p {
+    font-size: 13px;
+
+}
+
+.satish-patel .bg-quotes {
+    position: absolute;
+    transform: translateY(-40px);
+    width: 2rem;
+}
+
+.satish-patel .bg-quotes img {
+    width: 100%;
+    height: auto;
+}
+
+.profile-and-name {
+    display: flex;
+    margin-top: 15px;
+    gap: 20px;
+}
+
+.profile-and-name span img {
+    width: 40px;
+    height: auto;
+    border-radius: 50%;
+}
+
+.profile-and-name div {
+    color: rgb(101, 101, 101);
+    font-family: var(--font-raleway);
+    font-weight: 400;
+}
+
+.name {
+    color: var(--White);
+    font-weight: 700;
+}
+
+
+
+
+
+/* QUOTES SECTION ENDS HERE  */
+
+/* FORM SECTION STYLES */
+.acces-section {
+    /* display: none; */
+    width: 100%;
+    padding: 20px;
+    height: 200px;
+    position: relative;
+}
+
+.acces-form-box {
+    background: var(--Dark-Blue-testimonials);
+    padding: 20px;
+    position: absolute;
+    margin: 10px;
+    transform: translateX(-10px);
+    text-align: center;
+    line-height: 20px;
+    border-radius: 10px;
+}
+
+.form-input-btn {
+    padding-top: 20px;
+
+}
+
+.form-input-btn form input {
+    width: 90%;
+    padding: 16px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    border: none
+}
+
+.social-media{
+    display: flex;
+    width: 10%;
+}
+
+
+/* FORM SECTION STYLES ENDS HERE  */
+
+
+
+
+/* MAIN STYLES ENDS HERE  */
+
+/* FOOTER STYLES  */
+footer {
+
+    background: var(--Dark-Blue-footer);
+    padding: 200px 30px;
+    padding-bottom: 80px;
+
+}
+
+
+footer div{
+    margin:25px 0px;
+}
+
+.location {
+    font-size: 16px;
+}
+
+.email-and-phone{
+    line-height: 50px;
+}
+
+.links{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+}
+
+.links-2{
+    margin-top: 40px;
+}
+
+.links span{
+    cursor: pointer;
+}
+
+.links span:hover{
+    font-weight: 700;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+  color: var(--White);
+}
+
+/* FOOTER STYLES ENDS HERE */
+
+/* ********************************************************************************************************************* */
+
+
+
+
+/* Media queries  */
+@media screen and (min-width:800px) {
+
+    /* HEADER STYLES */
+
+    .header {
+        background: url(./images/bg-curvy-desktop.svg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-color: var(--Dark-Blue-email-intro);
+        background-position: bottom -100px left 0px;
+        overflow-y: hidden;
+    }
+
+    .logo-nav {
+        padding: 60px;
+    }
+
+    .logo-nav nav {
+        gap: 80px;
+        margin-right: 50px;
+    }
+
+    .get-started-session {
+        position: relative;
+        padding-bottom: 150px;
+    }
+
+
+    .ilustration-header img {
+        width: 100%;
+        padding-bottom: 50px;
+    }
+
+    .get-started-session .accesible-anywhere {
+        font-size: 35px;
+        margin: 20px 0px;
+    }
+
+    .get-started-session .intro-info {
+        font-size: 20px;
+        margin: 20px 0px;
+    }
+
+    .info-box {
+        width: 45%;
+        margin: 0 auto;
+    }
+
+    .get-started-session div .btns {
+        margin-top: 40px;
+    }
+
+    /* HEADER STYLES ENDS HERE  */
+
+
+    /* MAIN STYLES */
+
+    .services {
+        margin: 0 auto;
+        padding: 150px;
+        padding-left: 300px;
+        display: grid;
+        grid-template-columns: repeat(2, 35%);
+        grid-template-rows: repeat(2, 300px);
+        gap: 100px;
+    }
+
+    h4 {
+        font-size: 25px;
+    }
+
+    .p {
+        font-size: 15px;
+    }
+
+    .acces-your-files,
+    .security-you-can-trust,
+    .real-time-colaboration,
+    .Any-type-of-file {
+        text-align: center;
+    }
+
+
+    .stay-productive-box {
+        display: flex;
+        padding: 80px;
+    }
+
+    .second-ilustration {
+        width: 50%;
+    }
+
+    .stay-productive-info {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 50px;
+    }
+
+    h5 {
+        font-size: 40px;
+        margin-bottom: 30px;
+    }
+
+    .how-fylo-works {
+        margin-top: 30px;
+        width: 25%;
+    }
+
+
+    /* QUOTES SECTION  */
+    .quotes-box {
+        display: flex;
+        padding: 100px 150px;
+        gap: 30px;
+    }
+
+
+    .satish-patel .bg-quotes {
+        transform: translate(-10px, -55px);
+        width: 3rem;
+    }
+
+    /* QUOTES SECTION ENDS HERE  */
+
+    /* ACCESS SECTION STYLES */
+    .acces-form-box {
+        width: 60%;
+        padding: 30px;
+        margin: 0px;
+        transform: translateX(30%);
+    }
+
+    .form-input-btn form {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .form-input-btn form input {
+        width: 60%;
+        padding: 12px;
+
+    }
+
+    .form-input-btn form .btns {
+        width: 30%;
+        font-size: 13px;
+        padding: 15px 0px;
+        margin-bottom: 15px;
+    }
+
+    /* ACCESS SECTION STYLES ENDS HERE  */
+    /* MAIN STYLES ENDS HERE  */
+
+    /* FOOTERS SYLES */
+
+    footer {
+
+        padding: 130px 130px;
+    
+    }
+
+    .footer-info{
+        display: flex;
+        width: 100%;
+    }
+    .location {
+        width: 25%;
+        display: flex;
+        gap: 20px;
+    }
+
+    .logo-img{
+        width: 2rem;
+    }
+
+    .email-and-phone{
+        width: 30%;
+        text-align: center;
+        line-height: 30px;
+    }
+
+    .links{
+        width: 20%;
+        text-align: center;
+    }
+
+    .email-and-phone{
+        padding-left: 20px;
+    }
+
+    /* FOOTERS SYLES ENDS HERE  */
+}
+
+
+
+/* Others media queries */
+@media only screen and (min-width: 800px) and (max-width: 1100px) {
+
+    .header {
+        background-position: bottom -90px left 0px;
+
+    }
+
+    .services {
+
+        padding-left: 200px;
+
+    }
+}
